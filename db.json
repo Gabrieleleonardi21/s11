@@ -1,0 +1,35 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "Studiare React 19 e Vite",
+      "completed": false,
+      "createdAt": "2025-01-01T09:00:00.000Z"
+    },
+    {
+      "text": "Mostrare l'esercizio ToDoList",
+      "completed": false,
+      "createdAt": "2026-07-13T11:15:57.967Z",
+      "id": "4"
+    },
+    {
+      "text": "Nuova attivitÃ ",
+      "completed": false,
+      "createdAt": "2026-07-13T12:08:07.626Z",
+      "id": "5"
+    },
+    {
+      "text": "comprare.la pappa",
+      "completed": true,
+      "createdAt": "2026-07-13T12:51:55.729Z",
+      "id": "vDwPm7H"
+    },
+    {
+      "text": "prendere i coriandoli per Nicole",
+      "completed": true,
+      "createdAt": "2026-07-13T13:04:18.195Z",
+      "id": "sU4pR4a"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

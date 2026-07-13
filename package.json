@@ -1,29 +1,26 @@
 {
-  "name": "s11",
+  "name": "todolist-react19-jsonserver",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 3001",
+    "start": "concurrently -n SERVER,CLIENT -c blue,green \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
-    "concurrently": "^10.0.3",
-    "json-server": "^1.0.0-beta.15",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "bootstrap": "^5.3.8",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.18.1"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.3",
-    "eslint": "^10.6.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.3",
-    "globals": "^17.7.0",
-    "vite": "^8.1.1"
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "json-server": "^0.17.4",
+    "vite": "^6.0.0"
   }
 }
